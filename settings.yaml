@@ -1,0 +1,4 @@
+openrouter_api_key: "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"
+model: "openai/gpt-3.5-turbo"
+site_url: "file:///Users/adarshpratapsingh/Desktop/LLM%20Chat/frontend/index.html"
+app_name: "your_app_name"

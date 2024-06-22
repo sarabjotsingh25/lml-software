@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "llm chat"
+version = "0.1.0"
+description = ""
+authors = ["adarrrsh <132006822+adarrrsh@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.78.0"
+uvicorn = "^0.17.6"
+openai = "^0.27.0"
+pyyaml = "^6.0"
+
+[tool.poetry.extras]
+ui = []
+llms-openai-like = []
+embeddings-huggingface = []
+vector-stores-qdrant = []
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
